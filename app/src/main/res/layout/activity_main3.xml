@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/alam"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFIL SMKN 1 SAYUNG"
+        android:gravity="center_horizontal"
+        android:textColor="#0B0303"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smk Mempunyai 5 kompetensi keahlian"
+        android:gravity="center_horizontal"
+        android:textColor="#190000"
+        android:textSize="28sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Teknik Pengelasan Dan Fabrikasi Logam"
+        android:gravity="center_horizontal"
+        android:textColor="#0E0101"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Teknik Otomotif"
+        android:gravity="center_horizontal"
+        android:textColor="#0C0101"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Pengembangan Perangkat Lunak dan Gim"
+        android:gravity="center_horizontal"
+        android:textColor="#090000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Tata Busana "
+        android:gravity="center_horizontal"
+        android:textColor="#090000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Kuliner"
+        android:gravity="center_horizontal"
+        android:textColor="#01080E"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alam"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="66dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="IDENTITAS GURU"
+        android:textColor="#0C0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="424dp"
+        android:layout_height="194dp"
+        android:src="@drawable/paksaroni" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="NAMA:Drs.Saroni"
+        android:textColor="#000305"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP: 196711012007011011"
+        android:gravity="center_horizontal"
+        android:textColor="#0B0000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir:Demak,1 November 1967"
+        android:gravity="center_horizontal"
+        android:textColor="#0B0000"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat:Tegowanu wetan kecamatan tegowanu kabupaten grobogan rt 03 rw 01"
+        android:gravity="center_horizontal"
+        android:textColor="#F80E000E"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="467dp"
+        android:layout_height="55dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Pekerjaan: Guru Ppkn"
+        android:textColor="#0E0000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</LinearLayout>
